@@ -25,4 +25,5 @@ if(isset($db)){
 else{
         echo "there may be a problem with our connection details";
 }
+#I commit in the wrong branch
 ?>
