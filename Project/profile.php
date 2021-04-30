@@ -121,4 +121,21 @@ if (isset($_POST["saved"])) {
         <input type="password" name="confirm"/>
         <input type="submit" name="saved" value="Save Profile"/>
     </form>
+
+
+<a href = "scorehistory.php"><button type="button"> Previous scores </button></a>
+
+<!-- this is for the top thingy -->
+    <form action="top.php" method ="get">
+    <label for="score">Choose the top score: </label>
+    <input list ="scores" name = "score" id ="score">
+    <datalist id = "scores">
+        <option value= "Top weekly">
+        <option value="Top monthly">
+        <option value ="Top Lifetime">
+    </datalist>
+    <input type = "submit">
+    </form> 
+
+
 <?php require(__DIR__ . "/partials/flash.php");
