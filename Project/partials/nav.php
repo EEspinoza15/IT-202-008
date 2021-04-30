@@ -1,3 +1,4 @@
+
 <link rel="stylesheet" href="static/css/styles.css">
 <?php
 require_once(__DIR__ . "/../lib/helpers.php");
