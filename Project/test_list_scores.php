@@ -15,7 +15,6 @@ $query = "";
 $result = [];
 if(isset($_POST["query"])){
     $query = $_POST["query"];
-	flash("Get into the query");
 }
 if(isset($_POST["search"])&& !empty($query)){
     $db = getDB();
